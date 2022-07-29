@@ -2,14 +2,26 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Permanent Marker', cursive;
-    
 }
 
 body {
+    font-family: 'Permanent Marker', cursive;
     background-color: #3b1163;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    align-self: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+}
 header, footer {
     color: aquamarine;
     font-size: 24px;
@@ -20,7 +32,7 @@ figure {
     width: 150px;
     background-color: lightgreen;
     display: inline;
-    flex: 1 0 200px;
+    flex: 0 0 200px;
 }
 img {
     height: 100px;
